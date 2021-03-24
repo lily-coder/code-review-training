@@ -1,2 +1,2 @@
 # basic-microvese
-Initial repo for microverse
+This is a clone of The New York Times Article
