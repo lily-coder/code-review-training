@@ -1,0 +1,302 @@
+body {
+  font-family: georgia, "times new roman", times, serif;
+}
+
+/*  Page Header */
+.head-cont {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 18% 66% 16%;
+  border-bottom: 1px lightgray solid;
+  background: white;
+}
+
+.head-space-cosmos {
+  justify-self: end;
+  margin-right: 15px;
+}
+
+.head-cosmos-link {
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  vertical-align: text-top;
+}
+
+.new-york-times-logo {
+  width: 200px;
+  justify-self: center;
+  margin-top: 8px;
+}
+
+.head-buttons input {
+  height: 35px;
+  margin: 3px 0 3px 0;
+  background: #6288a5;
+  border: solid #6288a5 1px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.head-buttons input:hover {
+  background: #326891;
+}
+
+/* The Main Article Section  */
+article {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(5, minmax(50px, auto));
+}
+
+h1 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  justify-self: start;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  width: 390px;
+  margin-bottom: 25px;
+}
+
+.main-pic {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  justify-self: center;
+  align-self: center;
+  width: 1200px;
+  margin: auto;
+}
+
+.main-pic img {
+  width: 1200px;
+  height: 675px;
+  margin: 0 auto 0 auto;
+}
+
+.main-pic-caption {
+  color: grey;
+  margin: 10px 10px 10px 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.main-pic-caption-name {
+  font-size: 13px;
+}
+
+.article-segment-one {
+  grid-column: 2;
+  grid-row: 3;
+  justify-self: start;
+  width: 630px;
+  margin-top: 30px;
+}
+
+.writer {
+  font-weight: bold;
+  margin: 10px 10px 20px 0;
+}
+
+.article-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+article p {
+  margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 28px;
+}
+
+article h4,
+h3 {
+  font-weight: bold;
+  font-size: 21px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* The first Aside */
+#aside-one {
+  grid-column: 3;
+  grid-row: 3;
+  align-self: end;
+  justify-self: start;
+  margin-left: 50px;
+}
+
+.aside-one-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#aside-one h5 {
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px grey solid;
+}
+
+footer a {
+  color: grey;
+  font-size: 12px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.aside-one-row a {
+  width: 150px;
+  color: grey;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.aside-one-row a:hover {
+  text-decoration: underline;
+}
+
+.article-segment-two {
+  grid-column: 2;
+  grid-row: 4;
+  justify-self: start;
+  width: 630px;
+}
+
+/* The Second Aside */
+#aside-two {
+  grid-column: 3;
+  grid-row: 4;
+  align-self: end;
+  justify-self: start;
+  width: 180px;
+  margin-left: 50px;
+}
+
+#aside-two h5 {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+#aside-two p {
+  width: 150px;
+  color: grey;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+#aside-two input {
+  height: 35px;
+  background: #6288a5;
+  border: solid #6288a5 1px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  width: 180px;
+}
+
+#article-footer input {
+  height: 35px;
+  margin: 3px 0 3px 0;
+  background: #6288a5;
+  border: solid #6288a5 1px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  width: 250px;
+}
+
+#aside-two input:hover {
+  background: #326891;
+}
+
+.article-segment-three {
+  grid-column: 2;
+  grid-row: 5;
+  justify-self: start;
+  width: 630px;
+}
+
+#line-above {
+  border-top: solid 1px black;
+  padding-top: 10px;
+}
+
+#main-pic-caption-name {
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.video-caption {
+  line-height: 16px;
+  margin: 0;
+}
+
+#video {
+  margin-bottom: 40px;
+}
+
+#article-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#article-footer input:hover {
+  background: #326891;
+}
+
+.third-photo {
+  width: 720px;
+  margin-bottom: 40px;
+}
+
+.captionx {
+  position: relative;
+  left: -50px;
+}
+
+.third-photo img {
+  position: relative;
+  left: -50px;
+  height: 481px;
+}
+
+#article-smallprint {
+  color: grey;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#article-smallprint a {
+  text-decoration: none;
+  color: grey;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
